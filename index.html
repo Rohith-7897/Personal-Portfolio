@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/e5c346010b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="RohithName.JPEG" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I am <span>Rohith</span><br> from India</h1>
+        </div>
+    </div>
+</div>
+<!-------------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Rohith.jpeg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Enthusiastic and detail-oriented B.Tech graduate in Electronics and Communication Engineering 
+                    with a passion for Software Development. Skilled in Java, SQL, HTML, CSS, Hibernate, Spring, 
+                    and SpringBoot. Eager to apply academic knowledge and practical skills to a Software Developer 
+                    position. Committed to delivering high-quality solutions and continuously learning and 
+                    growing in the field of software development.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('project')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Software Developer</span><br>Developing Softwares</li>
+                            <li><span>Application Developer</span><br>Developing Applications</li>
+                            <li><span>Java Developer</span><br>Developing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span>User Management REST API with Spring Boot</span><br>Built using SpringBoot</li>
+                            <li><span>Merchant Web App</span><br>Built using Spring MVC</li>
+                            <!-- <li><span>Java Developer</span><br>Developing</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2023</span><br>B.Tech in ECE</li>
+                            <li><span>2017 - 2019</span><br>Intermediate (12th) in MPC</li>
+                            <li><span>2016 - 2017</span><br>SSC (10th)</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Application Development</h2>
+                <p>Application Development involves the process of creating software applications that 
+                    run on various platforms such as computers, smartphones, and tablets. This process includes 
+                    designing, building, testing, and maintaining applications to meet specific business or 
+                    user requirements. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-uncharted"></i>
+                <h2>Software Development</h2>
+                <p>As a Software Developer, you design, create, and maintain software applications. 
+                    You use your programming skills and knowledge of software development methodologies 
+                    to solve problems and meet the needs of users or clients. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>API Development</h2>
+                <p>API Development involves creating Application Programming Interfaces (APIs) 
+                    that allow different software applications to communicate with each other. 
+                    APIs define the methods and data formats that applications can use to request and 
+                    exchange information.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--      Portfolio    -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./API.jpg">
+                <div class="layer">
+                    <h3>User Management and Product Listing Application with SpringBoot</h3>
+                    <p>Manage users (CRUD, search by name/phone, authentication) & products 
+                        (CRUD, search by brand, name, category, id) in this Spring Boot app.</p>
+                    <a href="https://github.com/Rohith-7897/User-Management-and-Product-Listing-
+                    Application-with-Spring-Boot"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./MerchantImage.avif">
+                <div class="layer">
+                    <h3>Merchant Web App</h3>
+                    <p>It is build using Spring MVC to manage merchant data</p>
+                    <a href="https://github.com/Rohith-7897/Merchant_WebApp">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./Ecomm.jpeg">
+                <div class="layer">
+                    <h3>E-Commerce Webpage</h3>
+                    <p>It is E-Commerce Webpage built using HTML, CSS</p>
+                    <a href="https://rohith-7897.github.io/E-Commerce-Website/">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--    Contact    -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p> <i class="fa-solid fa-envelope"></i> sareddurohith@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> +919100217897</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/rohith4143?igsh=MXRya3V3M3R5dHRhdw%3D%3D&utm_source=qr">
+                        <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rohith-venkat-sareddu/">
+                        <i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Rohith-7897">
+                        <i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="./Rohith_Sareddu_Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Rohith.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwCueABOWXMEjH4gvqeNsI6yhCpyJPDdDyreEW_97p0dlK0cmmkPSeclPUUK70OL4-kdg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
