@@ -313,14 +313,3 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
 }
-/* For Small screen*/
-@media only screen and (max-width: 600px){
-    #header{
-        background-image: url();
-    }
-}
-#msg{
-    color: #61b752;
-    margin-top: -20px;
-    display: block;
-}
